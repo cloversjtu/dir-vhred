@@ -1,1 +1,1 @@
-# diri-vhred
+# dir-vhred
