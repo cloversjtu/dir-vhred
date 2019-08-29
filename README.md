@@ -1,7 +1,7 @@
 # dir-vhred
 
 
-1.Prepare the dataset:
+**1.Prepare the dataset:**
 
 python3 cornell_preprocess.py
 
