@@ -9,7 +9,7 @@ python3 ubuntu_preprocess.py
 
 
 
-2.Training the model:
+2.Train the model:
 
 python3 train.py --data=ubuntu  --batch_size=40 --eval_batch_size=40  --kl_annealing_iter=100000 --word_drop=0.25 --z_sent_size=3
 
