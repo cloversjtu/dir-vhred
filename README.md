@@ -6,20 +6,22 @@ This repository hosts the Dir-VHRED model for dialogue generation as described b
 
 
 # requirements
-pandas==0.20.3
-numpy==1.14.0
-gensim==3.1.0
-spacy==1.9.0
-tqdm==4.15.0
-nltk==3.2.5
-tensorboardX==1.1
-torch==0.4
+- pandas==0.20.3
+- numpy==1.14.0
+- gensim==3.1.0
+- spacy==1.9.0
+- tqdm==4.15.0
+- nltk==3.2.5
+- tensorboardX==1.1
+- torch==0.4
 
 
 # 1.Prepare the dataset:
 1.download the ubuntu corpus in http://dataset.cs.mcgill.ca/ubuntu-corpus-1.0/
 & movie corpus in https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html
+
 2.split the dataset with train/validation/test rate: 0.8，0.1，0.1
+
 3.run code:
  python3 cornell_preprocess.py
  python3 ubuntu_preprocess.py
